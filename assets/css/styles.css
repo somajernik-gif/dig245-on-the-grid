@@ -1,2 +1,80 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+  }
 
+  .masthead {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .main-photo {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+  
+
+  h2 {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+  }
+  .masthead h1 {
+  font-family: "UnifrakturMaguntia", serif;
+  font-size: 3rem;
+  font-weight: 400;
+}
+.navigation {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.navigation p {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+.small-story {
+  margin-bottom: 2rem;
+}
+
+.story-label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.small-story h3 {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.story-photo {
+  width: 100%;
+  max-width: 3rem;
+  height: auto;
+  border-radius: 50%;
+}
+.small-story {
+  margin-bottom: 2rem;
+}
+
+.story-label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.small-story h3 {
+  font-family: Georgia, serif;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+@media (max-width: 767px) {
+  .portrait-column {
+    order: -1;
+  }
+}
 /* css */
