@@ -18,11 +18,9 @@ body {
 
   h2 {
     font-family: Georgia, serif;
-    font-size: 1.5rem;
   }
   .masthead h1 {
   font-family: "UnifrakturMaguntia", serif;
-  font-size: 3rem;
   font-weight: 400;
 }
 .navigation {
@@ -31,7 +29,6 @@ body {
 }
 
 .navigation p {
-  font-size: 0.85rem;
   font-weight: bold;
 }
 .small-story {
@@ -39,16 +36,14 @@ body {
 }
 
 .story-label {
-  font-size: 0.75rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 .small-story h3 {
   font-family: Georgia, serif;
-  font-size: 1rem;
   font-weight: bold;
-  line-height: 1.2;
+
 }
 .story-photo {
   width: 100%;
