@@ -25,12 +25,11 @@ body {
 }
 .navigation {
   text-align: center;
-  margin-bottom: 1rem;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.navigation p {
-  font-weight: bold;
-}
 .small-story {
   margin-bottom: 2rem;
 }
@@ -57,5 +56,43 @@ body {
   .portrait-column {
     order: -1;
   }
+}
+.small-story {
+  margin-bottom: 1.5rem;
+}
+
+.story-label {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #555555;
+}
+
+.small-story h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+@media (min-width: 992px) {
+  .news-grid > .portrait-column {
+    border-left: 1px solid #555555;
+    border-right: 1px solid #555555;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.portrait-column .main-photo {
+  margin-bottom: 0.75rem;
+}
+
+.photo-title {
+  font-size: 1.5rem;
+}
+.lead-story h2 {
+  font-size: 1.5rem;
+}
+
+.lead-story p {
+  font-size: 0.875rem;
 }
 /* css */
